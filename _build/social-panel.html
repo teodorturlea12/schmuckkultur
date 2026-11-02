@@ -1,0 +1,37 @@
+<aside class="side-feeds" aria-label="Aktuelles aus unserem Geschäft">
+  <div class="feed-card">
+    <div class="tab-row" role="tablist" aria-label="Soziale Netzwerke">
+      <button type="button" id="tab-fb" class="tab-btn on" data-feed="fb" role="tab" aria-selected="true" aria-controls="feed-fb">Facebook</button>
+      <button type="button" id="tab-ig" class="tab-btn" data-feed="ig" role="tab" aria-selected="false" aria-controls="feed-ig" tabindex="-1">Instagram</button>
+    </div>
+    <div class="feed-slot" id="feed-fb" role="tabpanel" aria-labelledby="tab-fb">
+      <div class="feed-intro">
+        <h2>Aktuelles aus dem Geschäft</h2>
+        <p>Neue Schmuckstücke und Einblicke finden Sie auf unserer Facebook-Seite.</p>
+        <p class="feed-privacy">Erst beim Laden werden Daten an Meta übermittelt. Dabei können Cookies gesetzt werden. <a href="impressum.html#datenschutz">Datenschutz</a></p>
+        <button type="button" class="feed-load" data-provider="fb" hidden>Facebook-Inhalte laden</button>
+      </div>
+      <div class="feed-embed" hidden></div>
+      <div class="feed-actions">
+        <a href="https://www.facebook.com/schmuckkulturweiss" target="_blank" rel="noopener noreferrer">Facebook-Profil öffnen</a>
+        <button type="button" class="feed-close" hidden>Einbettung schließen</button>
+      </div>
+      <p class="feed-fallback" hidden>Keine Beiträge sichtbar? Öffnen Sie das Profil direkt.</p>
+    </div>
+    <div class="feed-slot" id="feed-ig" role="tabpanel" aria-labelledby="tab-ig" hidden>
+      <div class="feed-intro">
+        <h2>Schmuck entdecken</h2>
+        <p>Entdecken Sie neue Lieblingsstücke und Inspiration auf Instagram.</p>
+        <p class="feed-privacy">Erst beim Laden werden Daten an Meta übermittelt. Dabei können Cookies gesetzt werden. <a href="impressum.html#datenschutz">Datenschutz</a></p>
+        <button type="button" class="feed-load" data-provider="ig" hidden>Instagram-Inhalte laden</button>
+      </div>
+      <div class="feed-embed" hidden></div>
+      <div class="feed-actions">
+        <a href="https://www.instagram.com/schmuckkultur.weiss" target="_blank" rel="noopener noreferrer">Instagram-Profil öffnen</a>
+        <button type="button" class="feed-close" hidden>Einbettung schließen</button>
+      </div>
+      <p class="feed-fallback" hidden>Keine Beiträge sichtbar? Öffnen Sie das Profil direkt.</p>
+    </div>
+    <noscript><p><a href="https://www.instagram.com/schmuckkultur.weiss" target="_blank" rel="noopener noreferrer">Instagram-Profil öffnen</a></p></noscript>
+  </div>
+</aside>
