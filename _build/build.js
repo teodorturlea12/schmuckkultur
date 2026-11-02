@@ -842,3 +842,6 @@ console.log('Designer:', designers.length, '| mit Produktgruppen:', designers.fi
 console.log('Kooperationen:', KOOPS.length);
 const noDesigner = Object.values(products).flat().filter((p) => !p.designerName).length;
 console.log('Produkte ohne Designer-Angabe:', noDesigner);
+
+// Keep the approved preview repairs in every future generated build.
+require('./repair-preview')(OUT);
