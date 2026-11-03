@@ -165,7 +165,7 @@ function page({ file, title, desc, active, content, extraHead = '', bodyClass = 
 <meta name="description" content="${esc(desc)}">
 <meta name="robots" content="noindex, nofollow, noarchive">
 <link rel="icon" href="favicon.png" type="image/png">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20261103">
 ${extraHead}</head>
 <body class="${bodyClass}">
 <div class="frame">
