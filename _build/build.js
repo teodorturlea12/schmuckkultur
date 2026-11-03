@@ -685,7 +685,7 @@ nav a.active { border-bottom-color: #000; }
 
 /* vCard */
 .vcard summary { cursor: pointer; color: var(--link); }
-.vcard img { margin-top: 12px; max-width: 400px; }
+.vcard img { margin-top: 12px; width: 400px; max-width: 100%; }
 
 /* Footer */
 footer { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding: 16px 0; }
